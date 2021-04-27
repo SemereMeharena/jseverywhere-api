@@ -1,5 +1,5 @@
 const express = require('express');
-const { ApolloServer, gql } = require('apollo-server-express');
+const {ApolloServer, gql} = require('apollo-server-express');
 require('dotenv').config();
 
 const db = require('./db');
@@ -54,12 +54,12 @@ const app = express();
 db.connect(DB_HOST);
 
 // Apollo Server setup
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({typeDefs, resolvers});
 
 // Apply the Apollo GraphQL middleware and set the path to /api
-server.applyMiddleware({ app, path: '/api' });
+server.applyMiddleware({app, path: '/api'});
 
-app.listen({ port }, () =>
+app.listen({port}, () =>
   console.log(
     `GraphQL Server running at http://localhost:${port}${server.graphqlPath}`
   )

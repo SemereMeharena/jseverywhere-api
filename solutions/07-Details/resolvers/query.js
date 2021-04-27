@@ -1,20 +1,20 @@
 module.exports = {
-  notes: async (parent, args, { models }) => {
+  notes: async (parent, args, {models}) => {
     return await models.Note.find().limit(100);
   },
-  note: async (parent, args, { models }) => {
+  note: async (parent, args, {models}) => {
     return await models.Note.findById(args.id);
   },
-  user: async (parent, args, { models }) => {
-    return await models.User.findOne({ username: args.username });
+  user: async (parent, args, {models}) => {
+    return await models.User.findOne({username: args.username});
   },
-  users: async (parent, args, { models }) => {
+  users: async (parent, args, {models}) => {
     return await models.User.find({}).limit(100);
   },
-  me: async (parent, args, { models, user }) => {
+  me: async (parent, args, {models, user}) => {
     return await models.User.findById(user.id);
   },
-  noteFeed: async (parent, { cursor }, { models }) => {
+  noteFeed: async (parent, {cursor}, {models}) => {
     // hard code the limit to 10 items
     const limit = 10;
     // set the default hasNextPage value to false
@@ -26,12 +26,12 @@ module.exports = {
     // if there is a cursor
     // our query will look for notes with an ObjectId less than that of the cursor
     if (cursor) {
-      cursorQuery = { _id: { $lt: cursor } };
+      cursorQuery = {_id: {$lt: cursor}};
     }
 
     // find the limit + 1 of notes in our db, sorted newest to oldest
     let notes = await models.Note.find(cursorQuery)
-      .sort({ _id: -1 })
+      .sort({_id: -1})
       .limit(limit + 1);
 
     // if the number of notes we find exceeds our limit

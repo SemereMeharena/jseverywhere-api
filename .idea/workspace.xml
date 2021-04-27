@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df2bbf6e-d312-4284-acc7-7cf63932fc4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/resolvers/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/note.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/resolvers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/02-First-GraphQL/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02-First-GraphQL/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/03-Database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/03-Database/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/note.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/note.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rS0tNbzkbrzbu0BRDRnl32a2oO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df2bbf6e-d312-4284-acc7-7cf63932fc4e" name="Default Changelist" comment="" />
+      <created>1618954398065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618954398065</updated>
+      <workItem from="1618954405380" duration="170000" />
+      <workItem from="1618978839629" duration="843000" />
+      <workItem from="1618999307168" duration="2797000" />
+      <workItem from="1619165499056" duration="1210000" />
+      <workItem from="1619168066592" duration="75000" />
+      <workItem from="1619280377691" duration="1000" />
+      <workItem from="1619280392437" duration="649000" />
+      <workItem from="1619281093926" duration="5048000" />
+      <workItem from="1619296293668" duration="10827000" />
+      <workItem from="1619375473961" duration="2220000" />
+      <workItem from="1619379610710" duration="12649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="65" key="#JavaScript" timestamp="1619280639746">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="432" y="65" key="#JavaScript/0.0.1368.882@0.0.1368.882" timestamp="1619280639746" />
+    <state x="277" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619324369667">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="277" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.882@0.0.1368.882" timestamp="1619324369667" />
+    <state x="465" y="203" key="FileChooserDialogImpl" timestamp="1619457223284">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="465" y="196" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1619336110119" />
+    <state x="465" y="203" key="FileChooserDialogImpl/0.0.1368.912@0.0.1368.912" timestamp="1619457223284" />
+    <state width="1326" height="232" key="GridCell.Tab.0.bottom" timestamp="1619457232333">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="232" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1619413054874" />
+    <state width="1326" height="232" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
+    <state width="1326" height="232" key="GridCell.Tab.0.center" timestamp="1619457232333">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="232" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1619413054873" />
+    <state width="1326" height="232" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
+    <state width="1326" height="232" key="GridCell.Tab.0.left" timestamp="1619457232333">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="232" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1619413054872" />
+    <state width="1326" height="232" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
+    <state width="1326" height="232" key="GridCell.Tab.0.right" timestamp="1619457232333">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="232" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1619413054873" />
+    <state width="1326" height="232" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1619322855856">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1368.882@0.0.1368.882" timestamp="1619322855856" />
+    <state x="186" y="101" key="SettingsEditor" timestamp="1619386558108">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="186" y="98" key="SettingsEditor/0.0.1368.882@0.0.1368.882" timestamp="1619292111464" />
+    <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1619386558108" />
+    <state x="347" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1619280749653">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="347" y="186" width="672" height="678" key="search.everywhere.popup/0.0.1368.882@0.0.1368.882" timestamp="1619280749653" />
+  </component>
+</project>

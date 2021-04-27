@@ -10,7 +10,7 @@ require('dotenv').config();
 const gravatar = require('../util/gravatar');
 
 module.exports = {
-  newNote: async (parent, args, { models, user }) => {
+  newNote: async (parent, args, {models, user}) => {
     if (!user) {
       throw new AuthenticationError('You must be signed in to create a note');
     }
@@ -21,7 +21,7 @@ module.exports = {
       favoriteCount: 0
     });
   },
-  deleteNote: async (parent, { id }, { models, user }) => {
+  deleteNote: async (parent, {id}, {models, user}) => {
     // if not a user, throw an Authentication Error
     if (!user) {
       throw new AuthenticationError('You must be signed in to delete a note');
@@ -43,7 +43,7 @@ module.exports = {
       return false;
     }
   },
-  updateNote: async (parent, { content, id }, { models, user }) => {
+  updateNote: async (parent, {content, id}, {models, user}) => {
     // if not a user, throw an Authentication Error
     if (!user) {
       throw new AuthenticationError('You must be signed in to update a note');
@@ -71,7 +71,7 @@ module.exports = {
       }
     );
   },
-  toggleFavorite: async (parent, { id }, { models, user }) => {
+  toggleFavorite: async (parent, {id}, {models, user}) => {
     // if no user context is passed, throw auth error
     if (!user) {
       throw new AuthenticationError();
@@ -118,7 +118,7 @@ module.exports = {
       );
     }
   },
-  signUp: async (parent, { username, email, password }, { models }) => {
+  signUp: async (parent, {username, email, password}, {models}) => {
     // normalize email address
     email = email.trim().toLowerCase();
     // hash the password
@@ -134,20 +134,20 @@ module.exports = {
       });
 
       // create and return the json web token
-      return jwt.sign({ id: user._id }, process.env.JWT_SECRET);
+      return jwt.sign({id: user._id}, process.env.JWT_SECRET);
     } catch (err) {
       // if there's a problem creating the account, throw an error
       throw new Error('Error creating account');
     }
   },
 
-  signIn: async (parent, { username, email, password }, { models }) => {
+  signIn: async (parent, {username, email, password}, {models}) => {
     if (email) {
       // normalize email address
       email = email.trim().toLowerCase();
     }
     const user = await models.User.findOne({
-      $or: [{ email }, { username }]
+      $or: [{email}, {username}]
     });
 
     // if no user is found, throw an authentication error
@@ -162,6 +162,6 @@ module.exports = {
     }
 
     // create and return the json web token
-    return jwt.sign({ id: user._id }, process.env.JWT_SECRET);
+    return jwt.sign({id: user._id}, process.env.JWT_SECRET);
   }
 };

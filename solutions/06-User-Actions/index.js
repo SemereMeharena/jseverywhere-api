@@ -1,5 +1,5 @@
 const express = require('express');
-const { ApolloServer } = require('apollo-server-express');
+const {ApolloServer} = require('apollo-server-express');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
@@ -33,20 +33,20 @@ const getUser = token => {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  context: ({ req }) => {
+  context: ({req}) => {
     // get the user token from the headers
     const token = req.headers.authorization;
     // try to retrieve a user with the token
     const user = getUser(token);
     // add the db models and the user to the context
-    return { models, user };
+    return {models, user};
   }
 });
 
 // Apply the Apollo GraphQL middleware and set the path to /api
-server.applyMiddleware({ app, path: '/api' });
+server.applyMiddleware({app, path: '/api'});
 
-app.listen({ port }, () =>
+app.listen({port}, () =>
   console.log(
     `GraphQL Server running at http://localhost:${port}${server.graphqlPath}`
   )

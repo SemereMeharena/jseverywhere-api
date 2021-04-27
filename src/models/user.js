@@ -21,7 +21,6 @@ const UserSchema = new mongoose.Schema(
     }
   },
   {
-    // Assigns createdAt and updatedAt fields with a Date type
     timestamps: true
   }
 );

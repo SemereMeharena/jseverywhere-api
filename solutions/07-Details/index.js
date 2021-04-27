@@ -1,10 +1,10 @@
 const express = require('express');
-const { ApolloServer } = require('apollo-server-express');
+const {ApolloServer} = require('apollo-server-express');
 const jwt = require('jsonwebtoken');
 const helmet = require('helmet');
 const cors = require('cors');
 const depthLimit = require('graphql-depth-limit');
-const { createComplexityLimitRule } = require('graphql-validation-complexity');
+const {createComplexityLimitRule} = require('graphql-validation-complexity');
 require('dotenv').config();
 
 const db = require('./db');
@@ -44,20 +44,20 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   validationRules: [depthLimit(5), createComplexityLimitRule(1000)],
-  context: ({ req }) => {
+  context: ({req}) => {
     // get the user token from the headers
     const token = req.headers.authorization;
     // try to retrieve a user with the token
     const user = getUser(token);
     // add the db models and the user to the context
-    return { models, user };
+    return {models, user};
   }
 });
 
 // Apply the Apollo GraphQL middleware and set the path to /api
-server.applyMiddleware({ app, path: '/api' });
+server.applyMiddleware({app, path: '/api'});
 
-app.listen({ port }, () =>
+app.listen({port}, () =>
   console.log(
     `GraphQL Server running at http://localhost:${port}${server.graphqlPath}`
   )
