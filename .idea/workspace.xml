@@ -1,48 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:greenkeeper" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df2bbf6e-d312-4284-acc7-7cf63932fc4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/resolvers/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/note.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/resolvers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/resolvers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/02-First-GraphQL/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02-First-GraphQL/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/03-Database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/03-Database/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/04-CRUD/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/05-Authentication/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/note.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/06-User-Actions/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/note.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/resolvers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/07-Details/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/07-Details/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01-Web-Server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01-Web-Server/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/02-First-GraphQL/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/02-First-GraphQL/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/03-Database/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/03-Database/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/03-Database/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/03-Database/models/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/03-Database/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/models/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/mutation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/resolvers/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/04-CRUD/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/models/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/mutation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/resolvers/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/05-Authentication/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/models/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/mutation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/resolvers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/06-User-Actions/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/models/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/mutation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/resolvers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/07-Details/util/gravatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/mutation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolvers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/gravatar.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +115,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectId" id="1rS0tNbzkbrzbu0BRDRnl32a2oO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,16 +133,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/mongoose/lib/model.js&#10;C:/Users/semere/projects/jseverywhere/api/.env" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\semere\projects\jseverywhere\api\src\util" />
+      <recent name="C:\Users\semere\projects\jseverywhere\api\src\utils" />
+      <recent name="C:\Users\semere\projects\jseverywhere\api\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\semere\projects\jseverywhere\api\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="final" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="final" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -111,58 +196,118 @@
       <workItem from="1619296293668" duration="10827000" />
       <workItem from="1619375473961" duration="2220000" />
       <workItem from="1619379610710" duration="12649000" />
+      <workItem from="1619510049341" duration="298000" />
+      <workItem from="1619548373050" duration="1716000" />
+      <workItem from="1619556704909" duration="592000" />
+      <workItem from="1619598649951" duration="695000" />
+      <workItem from="1619638704287" duration="134000" />
+      <workItem from="1619767611797" duration="273000" />
+      <workItem from="1619768457038" duration="1042000" />
+      <workItem from="1620236449351" duration="39000" />
+      <workItem from="1621553897030" duration="3000" />
+      <workItem from="1621949217085" duration="2581000" />
+      <workItem from="1622121311882" duration="1932000" />
+      <workItem from="1622273963948" duration="3054000" />
+      <workItem from="1622277705606" duration="2435000" />
+      <workItem from="1622354254622" duration="11882000" />
+      <workItem from="1622395034842" duration="7224000" />
+      <workItem from="1622464944418" duration="3285000" />
+      <workItem from="1622572254762" duration="650000" />
+      <workItem from="1622574204780" duration="151000" />
+      <workItem from="1622657917400" duration="2029000" />
+      <workItem from="1623074279666" duration="1743000" />
+      <workItem from="1623219938827" duration="821000" />
+      <workItem from="1623227785229" duration="627000" />
+      <workItem from="1624869528516" duration="2193000" />
+      <workItem from="1624952479032" duration="2977000" />
+      <workItem from="1625036988363" duration="19000" />
+      <workItem from="1626369247358" duration="913000" />
+      <workItem from="1627978444544" duration="7281000" />
+      <workItem from="1628254030539" duration="240000" />
+      <workItem from="1628255905167" duration="243000" />
+      <workItem from="1633773232489" duration="4536000" />
+      <workItem from="1633779780963" duration="178000" />
+      <workItem from="1633779977756" duration="15000" />
+      <workItem from="1633780009344" duration="160000" />
+      <workItem from="1633780189222" duration="5600000" />
+      <workItem from="1633792486401" duration="999000" />
+      <workItem from="1633795633027" duration="30254000" />
+      <workItem from="1634062200747" duration="632000" />
+      <workItem from="1634064492992" duration="192000" />
+      <workItem from="1634064770086" duration="420000" />
+      <workItem from="1634135644990" duration="53000" />
+      <workItem from="1634135718864" duration="2495000" />
+      <workItem from="1634199737111" duration="820000" />
+      <workItem from="1634238637846" duration="3320000" />
+      <workItem from="1634290908191" duration="151000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="65" key="#JavaScript" timestamp="1619280639746">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state x="432" y="65" key="#JavaScript/0.0.1368.882@0.0.1368.882" timestamp="1619280639746" />
-    <state x="277" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619324369667">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state x="277" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.882@0.0.1368.882" timestamp="1619324369667" />
-    <state x="465" y="203" key="FileChooserDialogImpl" timestamp="1619457223284">
+    <state x="506" y="235" width="511" height="285" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1634199852544">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="465" y="196" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1619336110119" />
-    <state x="465" y="203" key="FileChooserDialogImpl/0.0.1368.912@0.0.1368.912" timestamp="1619457223284" />
-    <state width="1326" height="232" key="GridCell.Tab.0.bottom" timestamp="1619457232333">
+    <state x="506" y="227" width="511" height="285" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1368.882@0.0.1368.882" timestamp="1627978510642" />
+    <state x="506" y="235" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1368.912@0.0.1368.912" timestamp="1634199852544" />
+    <state x="415" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633773507846">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="232" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1619413054874" />
-    <state width="1326" height="232" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
-    <state width="1326" height="232" key="GridCell.Tab.0.center" timestamp="1619457232333">
+    <state x="415" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.912@0.0.1368.912" timestamp="1633773507846" />
+    <state x="771" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633792789520">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="232" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1619413054873" />
-    <state width="1326" height="232" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
-    <state width="1326" height="232" key="GridCell.Tab.0.left" timestamp="1619457232333">
+    <state x="771" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1368.912@0.0.1368.912" timestamp="1633792789520" />
+    <state x="465" y="211" key="FileChooserDialogImpl" timestamp="1628254096380">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="232" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1619413054872" />
-    <state width="1326" height="232" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
-    <state width="1326" height="232" key="GridCell.Tab.0.right" timestamp="1619457232333">
+    <state x="465" y="211" key="FileChooserDialogImpl/0.0.1368.912@0.0.1368.912" timestamp="1628254096380" />
+    <state width="1326" height="207" key="GridCell.Tab.0.bottom" timestamp="1634276430914">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="232" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1619413054873" />
-    <state width="1326" height="232" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1619457232333" />
-    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1619322855856">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1368.882@0.0.1368.882" timestamp="1619322855856" />
-    <state x="186" y="101" key="SettingsEditor" timestamp="1619386558108">
+    <state width="1326" height="160" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1627989220174" />
+    <state width="1326" height="207" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1634276430914" />
+    <state width="1326" height="207" key="GridCell.Tab.0.center" timestamp="1634276430914">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="186" y="98" key="SettingsEditor/0.0.1368.882@0.0.1368.882" timestamp="1619292111464" />
-    <state x="186" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1619386558108" />
-    <state x="347" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1619280749653">
-      <screen x="0" y="0" width="1368" height="882" />
+    <state width="1326" height="160" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1627989220174" />
+    <state width="1326" height="207" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1634276430914" />
+    <state width="1326" height="207" key="GridCell.Tab.0.left" timestamp="1634276430914">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="347" y="186" width="672" height="678" key="search.everywhere.popup/0.0.1368.882@0.0.1368.882" timestamp="1619280749653" />
+    <state width="1326" height="160" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1627989220174" />
+    <state width="1326" height="207" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1634276430914" />
+    <state width="1326" height="207" key="GridCell.Tab.0.right" timestamp="1634276430914">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="160" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1627989220174" />
+    <state width="1326" height="207" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1634276430914" />
+    <state x="468" y="75" key="RollbackChangesDialog" timestamp="1633773393966">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="468" y="75" key="RollbackChangesDialog/0.0.1368.912@0.0.1368.912" timestamp="1633773393966" />
+    <state x="-7" y="101" width="923" height="706" key="SettingsEditor" timestamp="1633779990311">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="-7" y="98" width="923" height="706" key="SettingsEditor/0.0.1368.882@0.0.1368.882" timestamp="1627989218789" />
+    <state x="-7" y="101" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1633779990311" />
+    <state x="689" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1633796963729">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="689" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1368.912@0.0.1368.912" timestamp="1633796963729" />
   </component>
 </project>
